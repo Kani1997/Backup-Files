@@ -1,0 +1,64 @@
+Docker Commands:
+	$ docker version
+	$ docker pull imagename
+	$ docker build -t image-name docker-file-location
+	$ docker run -d image-name
+	$ docker images
+	$ docker ps -a
+	$ docker create conatiner --name myweb -p 80:80 nginx
+	$ docker start containerid
+	$ docker stop containerid
+	$ docker rm name
+	$ docker rmi imagename
+	$ docker conatiner prune
+	$ docker rmi$(docker images -q)
+	$ docker rmi -r(docker images -q)
+	$ docker rm $(docker ps -a -q)
+// compose file
+	$ git clone github link
+	$ cd projectname
+	$ ls
+	$ cd cat docker-compose.yaml
+	$ docker-compose up
+	$ docker images
+	$ docker-compose down
+	$ docker rm conatiner 
+	
+// Ubuntu commands:
+	$ ls -> list of dir
+	$ cp -> copyfile
+	$ rm -> remove 
+	$ whoami
+	$ pwd
+	$ rmdir new_directory
+	$ mkdir directory name
+	$ cd directory name
+	$ touch filename
+	$ cat filename
+	$ cat >filename after finishing our commands press CLTr+D
+	$ cp < existing file name> <new file name>
+	$ mv <file name> <directory path>
+	$ head <file name>
+	$ tail <file name>
+	$ clear
+	
+	CD:continuos Delivery
+		Application deployed
+		most traditinoal application deployment modes are slow
+		agile method are used 
+		continuous pipe line or continuos deployment
+		
+	A pipe line refers to each promotion stage and application 
+
+code development->code commit->integration(unit testing ,access testing,load testing)
+->production ready(review->cd continous deployment
+
+What is jenkins:
+	leading integration tool
+	intergrate  easy delivery to code
+	core jenkis is not really complicated
+	scheduling and event
+	easy simple management code build 
+	code build are performed od tigger
+ci/cd with jenkins
+	
